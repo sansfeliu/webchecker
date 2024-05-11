@@ -11,6 +11,7 @@ python webchecker.py urls_file output_file
 The input file should contain one URL per line, such as:
 
 https://example1.com
+
 https://example2.com
 
 ## Results
@@ -19,7 +20,11 @@ The script will generate a CSV file with the results of checking the availabilit
 The format of the CSV file is as follows:
 
 URL,IP,Port,Active
+
 https://example1.com,192.168.1.1,80,Yes
+
 https://example1.com,192.168.1.1,443,Yes
+
 https://example2.com,192.168.1.2,80,No
+
 https://example2.com,192.168.1.2,443,Yes
